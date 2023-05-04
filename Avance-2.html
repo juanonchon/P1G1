@@ -12,10 +12,34 @@
 Juan es mayor de edad ?
 </button>
 
+
+<button onclick="MySegundoAlgoritmo()">
+Juan es de la tercera edad ?
+</button>
+
 <script>
 function MyPrimerAlgoritmo(){
-	
+	var edad
+	edad = prompt("Ingrese su edad:", "18")
+	if(edad >= 18){
+		alert("Juan es MAYOR de edad")
+	}else{
+		alert("Juan es MENOR de edad")
+	}
 }
+
+function MySegundoAlgoritmo(){
+	var edad
+	edad = prompt("Ingrese su edad:", "18")
+	if(edad >= 60){
+		alert("Juan es TERCERA EDAD")
+	}else{
+		alert("Juan no es TERCERA EDAD")
+	}
+}
+
+
+
 </script>
 
 </body>
